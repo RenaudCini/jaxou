@@ -1,0 +1,55 @@
+
+
+body
+{
+  overflow: hidden;
+}
+
+
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+
+}
+
+
+
+#Information_lien, #Information_lien_2, #Planning_lien_2, #Planning_lien {
+  font-size: 2rem;
+  display: block;
+  animation: rotation 10s infinite steps(3000);
+}
+
+.height_1
+{
+  height: 205px;
+}
+.height_2
+{
+  height: 150px;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+h1 {
+font-size: 8rem;
+}
+.biennale
+{
+  font-size: 6rem;
+}
+
+ .lien_info,.lien_progra
+{
+  margin-top: 140px;
+
+}

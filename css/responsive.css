@@ -1,0 +1,15 @@
+
+/*md  telephone */
+@media (min-width: 576px) {
+h1{
+  font-size: 3em;
+  } }
+
+/*md  tablette */
+@media (min-width: 768px) {  }
+
+/*lg ordi */
+@media (min-width: 992px) {  }
+
+/* xl ordi 17pouce + */
+@media (min-width: 1200px) {  }
